@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.19
 
-RUN apt-get update && DEBIAN_FRONTENT=noninteractive apt-get install -y zsh git curl grc ccze vim
+RUN apt-get update && DEBIAN_FRONTENT=noninteractive apt-get install -y zsh git curl grc ccze vim iputils-ping mc httpie
 
 RUN chsh -s /bin/zsh
 
